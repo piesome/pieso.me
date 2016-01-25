@@ -49,12 +49,16 @@ article {
 }
 .list li {
   list-style: none;
+  padding: 1em 0;
 }
-.list li span {
+.list li .content {
+  padding-left: calc(128px + 2em);
+}
+.list li span.name {
   font-weight: 500;
   display: block;
 }
-.list li img {
+.list li img.avatar {
   padding: 1em;
   border-radius: 100%;
   float: left;
@@ -62,13 +66,14 @@ article {
   width: 128px;
   height: 128px;
 }
-.list li p {
-  display: inline;
-}
 .list li:nth-child(2n) {
   text-align: right;
 }
-.list li:nth-child(2n) img {
+.list li:nth-child(2n) .content {
+  padding-left: 0;
+  padding-right: calc(128px + 2em);
+}
+.list li:nth-child(2n) img.avatar {
   float: right;
 }
 a {

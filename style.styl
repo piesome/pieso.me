@@ -45,22 +45,27 @@ article
   padding 0
   li
     list-style none
-    span
+    padding 1em 0
+    .content
+      padding-left calc(128px + 2em)
+    span.name
       font-weight 500
       display block
-    img
+    img.avatar
       padding 1em
       border-radius 100%
       float left
       display inline
       width 128px
       height 128px
-    p
-      display inline
   li:nth-child(2n)
     text-align right
-    img
+    .content
+      padding-left 0
+      padding-right calc(128px + 2em)
+    img.avatar
       float right
+
 
 a
   text-decoration none
