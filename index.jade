@@ -9,7 +9,9 @@ html
     link(href='css/quick.css', rel='stylesheet')
     link(href='css/style.css', rel='stylesheet')
   body
-    header Piesome
+    header
+      h1 Piesome
+      h2 Games & Stuff
     main
       h2#people Who we are
       article
@@ -21,13 +23,13 @@ html
                 span.name= person.name
                 != md(person.description)
                 if person.links.home
-                  a.icon-home(target='_blank', href=person.links.home) Home
+                  a.icon-home(href=person.links.home) Home
                   |  &bull;
                 if person.links.github
-                  a.icon-github(target='_blank', href=person.links.github) GitHub
+                  a.icon-github(href=person.links.github) GitHub
               .clearfix
       if projects
-        h2#projects What we do
+        h2#projects Things we have partaken in
         article
           ul.list
             for project in projects
@@ -36,11 +38,15 @@ html
                 .content
                   span.name= project.name
                   != md(project.description)
+                  if project.links && project.links.home
+                    a.icon-home(href=project.links.home) Play
+                  if project.links && project.links.github
+                    a.icon-github(href=project.links.github) GitHub
                 .clearfix
     footer
       a.icon-github.gh(href='https://github.com/piesome')
       br
-      | Site © 2014-2016 pieso.me
+      | Site © 2014-2017 pieso.me
       br
       | Uses
       a(href='http://fortawesome.github.io/Font-Awesome/')  Font Awesome

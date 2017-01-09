@@ -1,19 +1,16 @@
 ---
 people:
-  - name: Juhani Imberg
-    description: |
-      Hi!
-
-      I'm a CS student and work at SSH. I'm interested in everything.
+  - name: Minttu Imberg
+    description: CS student. Workaholic. Interested in everything.
     links:
-      home: http://juhani.imberg.fi
-      github: https://github.com/JuhaniImberg
+      home: https://minttu.io
+      github: https://github.com/minttu
     avatar: https://avatars.githubusercontent.com/u/3290715?s=128
   - name: Esa Niemi
     description: |
       Hi!
 
-      I'm a 17-year-old student from Finland, who likes anime, sports, games and
+      I'm a student from Finland, who likes anime, sports, games and
       all kinds of gadgets and hacks. I like to do things with Unity3D, C#,
       Windows Phone, Arduino and Processing, but I also like to learn, discover
       and develop new things.
@@ -25,10 +22,10 @@ people:
     description: |
       Hi!
 
-      I'm a 19-year-old programmer from Finland. I like low-level fiddling with
+      I'm a programmer from Finland. I like low-level fiddling with
       various things, like the Linux kernel. I have experience in C, Python and
       Java. Aside from programming, I like music in most forms. I also play
-      games. I'm currently employed at Intel.
+      games.
     links:
       home: https://jgke.fi/
       github: https://github.com/jgke
@@ -60,3 +57,17 @@ people:
     avatar: https://avatars.githubusercontent.com/u/6554998?s=128
 
 projects:
+  - name: hero, commander
+    description: Our GGJ2016 game.
+    avatar: img/hero_commander.png
+    links:
+      github: https://github.com/piesome/fgj16
+  - name: GOTTA GO FAST
+    description: A few of us worked on this GGJ2015 game.
+    links:
+      github: https://github.com/jgke/FGJ15
+  - name: Matka ulos laatikosta
+    description: A few of us worked on this JGJ2013 game.
+    links:
+      home: http://juhani.imberg.fi/projects/jgj/
+      github: https://github.com/minttu/jgj2013
