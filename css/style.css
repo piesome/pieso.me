@@ -61,8 +61,14 @@ article {
   list-style: none;
   padding: 1em 0;
 }
+.list li .content-p {
+  display: table;
+}
 .list li .content {
-  padding-left: calc(128px + 2em);
+  display: table-cell;
+  vertical-align: middle;
+  height: 128px;
+  padding: 1em;
 }
 .list li span.name {
   font-weight: 500;
@@ -79,9 +85,8 @@ article {
 .list li:nth-child(2n) {
   text-align: right;
 }
-.list li:nth-child(2n) .content {
-  padding-left: 0;
-  padding-right: calc(128px + 2em);
+.list li:nth-child(2n) .content-p {
+  width: calc(100% - (3em + 130px));
 }
 .list li:nth-child(2n) img.avatar {
   float: right;

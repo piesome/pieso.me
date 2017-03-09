@@ -19,14 +19,15 @@ html
           for person in people
             li
               img.avatar(src=person.avatar)
-              .content
-                span.name= person.name
-                != md(person.description)
-                if person.links.home
-                  a.icon-home(href=person.links.home) Home
-                  |  &bull;
-                if person.links.github
-                  a.icon-github(href=person.links.github) GitHub
+              .content-p
+                .content
+                  span.name= person.name
+                  != md(person.description)
+                  if person.links.home
+                    a.icon-home(href=person.links.home) Home
+                    |  &bull;
+                  if person.links.github
+                    a.icon-github(href=person.links.github) GitHub
               .clearfix
       if projects
         h2#projects Things we have partaken in

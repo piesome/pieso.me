@@ -54,8 +54,13 @@ article
   li
     list-style none
     padding 1em 0
+    .content-p
+      display table
     .content
-      padding-left calc(128px + 2em)
+      display table-cell
+      vertical-align middle
+      height 128px
+      padding 1em
     span.name
       font-weight 500
       display block
@@ -68,9 +73,8 @@ article
       height 128px
   li:nth-child(2n)
     text-align right
-    .content
-      padding-left 0
-      padding-right calc(128px + 2em)
+    .content-p
+      width calc(100% - (3em + 130px))
     img.avatar
       float right
 
