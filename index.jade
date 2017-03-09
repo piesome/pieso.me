@@ -36,14 +36,15 @@ html
             for project in projects
               li
                 img.avatar(src=project.avatar)
-                .content
-                  span.name= project.name
-                  != md(project.description)
-                  if project.links && project.links.home
-                    a.icon-home(href=project.links.home) Play
-                  if project.links && project.links.github
-                    a.icon-github(href=project.links.github) GitHub
-                .clearfix
+                .content-p
+                  .content
+                    span.name= project.name
+                    != md(project.description)
+                    if project.links && project.links.home
+                      a.icon-home(href=project.links.home) Play
+                    if project.links && project.links.github
+                      a.icon-github(href=project.links.github) GitHub
+                  .clearfix
     footer
       a.icon-github.gh(href='https://github.com/piesome')
       br
