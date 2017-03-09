@@ -14,36 +14,25 @@ people:
     avatar: https://avatars.githubusercontent.com/u/915233?s=128
   - name: Jaakko Hannikainen
     description: |
-      Hi!
-
-      I'm a programmer from Finland. I like low-level fiddling with
-      various things, like the Linux kernel. I have experience in C, Python and
-      Java. Aside from programming, I like music in most forms. I also play
-      games.
+        Programming, music, fun. Order varies.
     links:
       home: https://jgke.fi/
       github: https://github.com/jgke
     avatar: https://avatars.githubusercontent.com/u/798778?s=128
   - name: Nicklas Ahlskog
     description: |
-      Hi!
-
       I am our gaming guy.
     links:
       github: https://github.com/kivibot
     avatar: https://avatars.githubusercontent.com/u/2412456?s=128
   - name: Allan Palmu
     description: |
-      Hi!
-
       I am our font guy.
     links:
       github: https://github.com/logarhythmic
     avatar: https://avatars.githubusercontent.com/u/1952758?s=128
   - name: Felix Bade
     description: |
-      Hello!
-
       I am our designer guy.
     links:
       home: http://felixbade.fi/
@@ -51,6 +40,11 @@ people:
     avatar: https://avatars.githubusercontent.com/u/6554998?s=128
 
 projects:
+  - name: tyrsky
+    description: Our GGJ2017 game.
+    avatar: img/tyrsky.png
+    links:
+      github: https://github.com/piesome/fgj17
   - name: hero, commander
     description: Our GGJ2016 game.
     avatar: img/hero_commander.png
